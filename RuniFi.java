@@ -12,7 +12,7 @@ class RuniFi {
         Track track3 = new Track("Creep", "Radiohead", 369);
         Track track4 = new Track("Thriller", "Michael Jackson", 222);
         Track track5 = new Track("Yesterday", "The Beatles", 125);
-      
+
         // Adds the tracks to the List
         System.out.println("Adding tracks...");
         myList.add(track1);
@@ -25,7 +25,7 @@ class RuniFi {
 
         // Displays the total duration
         System.out.println("\nTotal time duration of my list (in seconds):" + myList.totalDuration());
-
+        
         // Inserts a track to some location
         myList.add(1, track5);
         display("After adding Yesterday at location 1", myList);
